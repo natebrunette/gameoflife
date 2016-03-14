@@ -1,0 +1,13 @@
+#!/usr/bin/env php
+
+<?php
+
+use Tebru\GameOfLife\GameOfLifeApplication;
+
+require __DIR__ . '/../vendor/autoload.php';
+
+// set root dir
+define('ROOT_DIR', __DIR__ . '/..');
+
+$application = new GameOfLifeApplication('GameOfLife', '@package_version@');
+$code = $application->run();

@@ -1,0 +1,22 @@
+{
+    "name": "tebru/gameoflife",
+    "authors": [
+        {
+            "name": "Nate Brunette",
+            "email": "n@tebru.net"
+        }
+    ],
+    "require": {
+        "php": ">= 7",
+        "tebru/assert": "^0.2.0",
+        "symfony/console": "^3.0",
+        "tebru/enum": "^0.2.0",
+        "symfony/filesystem": "^3.0",
+        "symfony/process": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tebru\\GameOfLife\\": "src/"
+        }
+    }
+}
